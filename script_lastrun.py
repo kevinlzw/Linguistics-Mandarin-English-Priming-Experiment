@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.2.4),
-    on 二月 08, 2020, at 17:34
+    on 二月 08, 2020, at 17:44
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -49,7 +49,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\kevin\\Documents\\Spring 2020\\Psy Independent Study\\PsychoPy Script\\script_lastrun.py',
+    originPath='C:\\Users\\kevin\\Documents\\Spring 2020\\Psy Independent Study\\Linguistics-Mandarin-English-Priming-Experiment\\script_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -275,7 +275,7 @@ for thisTrial in trials:
             exec('{} = thisTrial[paramName]'.format(paramName))
     
     # ------Prepare to start Routine "trial"-------
-    routineTimer.add(17.000000)
+    routineTimer.add(16.000000)
     # update component parameters for each repeat
     text1.setText(word1)
     sound1.setSound(wrecord1, secs=4.0, hamming=True)
@@ -412,7 +412,7 @@ for thisTrial in trials:
                 prime_sound.stop()
         
         # *target_text* updates
-        if target_text.status == NOT_STARTED and tThisFlip >= 13.0-frameTolerance:
+        if target_text.status == NOT_STARTED and tThisFlip >= 12.0-frameTolerance:
             # keep track of start time/frame for later
             target_text.frameNStart = frameN  # exact frame index
             target_text.tStart = t  # local t and not account for scr refresh
@@ -429,7 +429,7 @@ for thisTrial in trials:
                 target_text.setAutoDraw(False)
         
         # *pan_record* updates
-        if pan_record.status == NOT_STARTED and t >= 13.0-frameTolerance:
+        if pan_record.status == NOT_STARTED and t >= 12.0-frameTolerance:
             # keep track of start time/frame for later
             pan_record.frameNStart = frameN  # exact frame index
             pan_record.tStart = t  # local t and not account for scr refresh
@@ -442,7 +442,7 @@ for thisTrial in trials:
             pan_record.status = FINISHED
         
         # *record_notification* updates
-        if record_notification.status == NOT_STARTED and tThisFlip >= 13.0-frameTolerance:
+        if record_notification.status == NOT_STARTED and tThisFlip >= 12.0-frameTolerance:
             # keep track of start time/frame for later
             record_notification.frameNStart = frameN  # exact frame index
             record_notification.tStart = t  # local t and not account for scr refresh
