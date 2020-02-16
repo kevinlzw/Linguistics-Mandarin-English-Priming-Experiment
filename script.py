@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.2.4),
-    on 二月 08, 2020, at 17:20
+    on 二月 15, 2020, at 19:14
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -15,7 +15,7 @@ from __future__ import absolute_import, division
 
 from psychopy import locale_setup
 from psychopy import prefs
-from psychopy import sound, gui, visual, core, data, event, logging, clock, microphone
+from psychopy import sound, gui, visual, core, data, event, logging, clock, microphone, hardware
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
 
@@ -34,7 +34,7 @@ os.chdir(_thisDir)
 
 # Store info about the experiment session
 psychopyVersion = '3.2.4'
-expName = 'untitled.py'
+expName = 'script'  # from the Builder filename that created this script
 expInfo = {'participant': '', 'session': '001'}
 dlg = gui.DlgFromDict(dictionary=expInfo, sortKeys=False, title=expName)
 if dlg.OK == False:
@@ -49,7 +49,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\kevin\\Documents\\Spring 2020\\Psy Independent Study\\PsychoPy Script\\script.py',
+    originPath='C:\\Users\\kevin\\Documents\\Spring 2020\\Psy Independent Study\\Linguistics-Mandarin-English-Priming-Experiment\\script.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -151,6 +151,7 @@ End_text = visual.TextStim(win=win, name='End_text',
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
+key_resp = keyboard.Keyboard()
 
 # Create some handy timers
 globalClock = core.Clock()  # to track the time since experiment started
@@ -256,7 +257,7 @@ thisExp.nextEntry()
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-trials = data.TrialHandler(nReps=5, method='random', 
+trials = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('conditions.xlsx'),
     seed=None, name='trials')
@@ -508,13 +509,15 @@ for thisTrial in trials:
     trials.addData('record_notification.stopped', record_notification.tStopRefresh)
     thisExp.nextEntry()
     
-# completed 5 repeats of 'trials'
+# completed 1 repeats of 'trials'
 
 
 # ------Prepare to start Routine "End"-------
 # update component parameters for each repeat
+key_resp.keys = []
+key_resp.rt = []
 # keep track of which components have finished
-EndComponents = [End_text]
+EndComponents = [End_text, key_resp]
 for thisComponent in EndComponents:
     thisComponent.tStart = None
     thisComponent.tStop = None
@@ -547,6 +550,32 @@ while continueRoutine:
         win.timeOnFlip(End_text, 'tStartRefresh')  # time at next scr refresh
         End_text.setAutoDraw(True)
     
+    # *key_resp* updates
+    waitOnFlip = False
+    if key_resp.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+        # keep track of start time/frame for later
+        key_resp.frameNStart = frameN  # exact frame index
+        key_resp.tStart = t  # local t and not account for scr refresh
+        key_resp.tStartRefresh = tThisFlipGlobal  # on global time
+        win.timeOnFlip(key_resp, 'tStartRefresh')  # time at next scr refresh
+        key_resp.status = STARTED
+        # keyboard checking is just starting
+        waitOnFlip = True
+        win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
+        win.callOnFlip(key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
+    if key_resp.status == STARTED and not waitOnFlip:
+        theseKeys = key_resp.getKeys(keyList=['y', 'n', 'left', 'right', 'space'], waitRelease=False)
+        if len(theseKeys):
+            theseKeys = theseKeys[0]  # at least one key was pressed
+            
+            # check for quit:
+            if "escape" == theseKeys:
+                endExpNow = True
+            key_resp.keys = theseKeys.name  # just the last key pressed
+            key_resp.rt = theseKeys.rt
+            # a response ends the routine
+            continueRoutine = False
+    
     # check for quit (typically the Esc key)
     if endExpNow or defaultKeyboard.getKeys(keyList=["escape"]):
         core.quit()
@@ -570,6 +599,15 @@ for thisComponent in EndComponents:
         thisComponent.setAutoDraw(False)
 thisExp.addData('End_text.started', End_text.tStartRefresh)
 thisExp.addData('End_text.stopped', End_text.tStopRefresh)
+# check responses
+if key_resp.keys in ['', [], None]:  # No response was made
+    key_resp.keys = None
+thisExp.addData('key_resp.keys',key_resp.keys)
+if key_resp.keys != None:  # we had a response
+    thisExp.addData('key_resp.rt', key_resp.rt)
+thisExp.addData('key_resp.started', key_resp.tStartRefresh)
+thisExp.addData('key_resp.stopped', key_resp.tStopRefresh)
+thisExp.nextEntry()
 # the Routine "End" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 

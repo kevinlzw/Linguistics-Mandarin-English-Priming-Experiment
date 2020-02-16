@@ -1,0 +1,94 @@
+10.0999 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [2560, 1440]. Using actual size
+12.5527 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002217D046F60>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002217D591358>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([2560, 1440]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.5527 	WARNING 	Starting Microphone but sound lib preference is set to be ['sounddevice', 'PTB', 'pyo', 'pygame']. Clashes might occur since 'pyo' is not preferred lib but is needed for Microphone
+13.9937 	EXP 	Set  sound=C
+13.9987 	EXP 	C:\Program Files\PsychoPy3\lib\site-packages\psychopy\microphone: switch on (48000hz) took 1.446s
+13.9988 	EXP 	window1: recordFrameIntervals = False
+14.1362 	EXP 	window1: recordFrameIntervals = True
+14.3187 	EXP 	window1: recordFrameIntervals = False
+14.8495 	EXP 	Created instructiontext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='instructiontext', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.8661 	EXP 	Created text1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='blue', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text1', opacity=1.0, ori=0, pos=array([-0.75,  0.  ]), rgb=array([  0.,   0., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.8744 	EXP 	Sound sound1 set volume 1.000
+14.8819 	EXP 	Created text2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='blue', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text2', opacity=1.0, ori=0, pos=array([-0.25,  0.  ]), rgb=array([  0.,   0., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.8820 	EXP 	Sound sound2 set volume 1.000
+14.8897 	EXP 	Created prime_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='blue', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='prime_text', opacity=1.0, ori=0, pos=array([0.25, 0.  ]), rgb=array([  0.,   0., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.8898 	EXP 	Sound prime_sound set volume 1.000
+14.8974 	EXP 	Created target_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='red', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='target_text', opacity=1.0, ori=0, pos=array([0.75, 0.  ]), rgb=array([255.,   0.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.9050 	EXP 	Created record_notification = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='record_notification', opacity=1.0, ori=0, pos=array([ 0. , -0.5]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.9128 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+14.9685 	EXP 	Created End_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='End_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+15.0207 	EXP 	instructiontext: autoDraw = True
+15.9815 	EXP 	Imported conditions.xlsx as conditions, 2 conditions, 8 params
+15.9819 	EXP 	Created sequence: random, trialTypes=2, nReps=2, seed=None
+15.9824 	EXP 	New trial (rep=0, index=0): OrderedDict([('word1', 'Ids'), ('word2', 'gsd'), ('prime', 'fgh'), ('target', '怕'), ('wrecord1', 'Eye.wav'), ('wrecord2', 'Cap.wav'), ('precord3', 'Pun.wav'), ('Rname', 'Prime Item: 怕e.English')])
+16.0252 	EXP 	frequency of recording onset marker: 19000.0
+16.0255 	EXP 	Set pan_record.marker_tone sound=19000.0
+16.0730 	DATA 	Keypress: space
+16.0750 	EXP 	instructiontext: autoDraw = False
+16.0750 	EXP 	text1: text = 'Ids'
+16.0750 	EXP 	text2: text = 'gsd'
+16.0750 	EXP 	prime_text: text = 'fgh'
+16.0750 	EXP 	target_text: text = '怕'
+16.0750 	EXP 	record_notification: text = 'Please say the word: pan'
+16.0750 	EXP 	text: text = 'Prime Item: 怕e.English'
+16.0750 	EXP 	text1: autoDraw = True
+16.0750 	EXP 	text: autoDraw = True
+20.0682 	EXP 	text2: autoDraw = True
+24.0682 	EXP 	prime_text: autoDraw = True
+28.0684 	EXP 	target_text: autoDraw = True
+28.0684 	EXP 	record_notification: autoDraw = True
+28.0691 	EXP 	Sound pan_record.marker_tone started
+28.0692 	DATA 	AdvAudioCapture pan_record: Record: onset 1581808260, capture 4.000s
+28.0707 	EXP 	AdvAudioCapture pan_record: Record: return immediately, no blocking
+31.9591 	DATA 	AdvAudioCapture pan_record: Record stopped early, new duration 3.884s
+31.9607 	EXP 	New trial (rep=0, index=1): OrderedDict([('word1', 'Eye'), ('word2', 'Cap'), ('prime', 'Pun'), ('target', '潘'), ('wrecord1', 'Eye.wav'), ('wrecord2', 'Cap.wav'), ('precord3', 'Pun.wav'), ('Rname', 'Prime Item: 潘.close.English')])
+32.0010 	EXP 	frequency of recording onset marker: 19000.0
+32.0012 	EXP 	Set pan_record.marker_tone sound=19000.0
+32.0264 	EXP 	text1: autoDraw = False
+32.0264 	EXP 	text2: autoDraw = False
+32.0264 	EXP 	prime_text: autoDraw = False
+32.0264 	EXP 	target_text: autoDraw = False
+32.0264 	EXP 	record_notification: autoDraw = False
+32.0264 	EXP 	text: autoDraw = False
+32.0264 	EXP 	text1: text = 'Eye'
+32.0264 	EXP 	text2: text = 'Cap'
+32.0264 	EXP 	prime_text: text = 'Pun'
+32.0264 	EXP 	target_text: text = '潘'
+32.0264 	EXP 	record_notification: text = 'Please say the word: pan'
+32.0264 	EXP 	text: text = 'Prime Item: 潘.close.English'
+32.0264 	EXP 	text1: autoDraw = True
+32.0264 	EXP 	text: autoDraw = True
+36.0179 	EXP 	text2: autoDraw = True
+40.0173 	EXP 	prime_text: autoDraw = True
+44.0175 	EXP 	target_text: autoDraw = True
+44.0175 	EXP 	record_notification: autoDraw = True
+44.0182 	EXP 	Sound pan_record.marker_tone started
+44.0182 	DATA 	AdvAudioCapture pan_record: Record: onset 1581808276, capture 4.000s
+44.0197 	EXP 	AdvAudioCapture pan_record: Record: return immediately, no blocking
+47.9563 	DATA 	AdvAudioCapture pan_record: Record stopped early, new duration 3.933s
+47.9574 	EXP 	New trial (rep=1, index=0): OrderedDict([('word1', 'Ids'), ('word2', 'gsd'), ('prime', 'fgh'), ('target', '怕'), ('wrecord1', 'Eye.wav'), ('wrecord2', 'Cap.wav'), ('precord3', 'Pun.wav'), ('Rname', 'Prime Item: 怕e.English')])
+47.9810 	EXP 	frequency of recording onset marker: 19000.0
+47.9815 	EXP 	Set pan_record.marker_tone sound=19000.0
+48.0038 	EXP 	text1: autoDraw = False
+48.0038 	EXP 	text2: autoDraw = False
+48.0038 	EXP 	prime_text: autoDraw = False
+48.0038 	EXP 	target_text: autoDraw = False
+48.0038 	EXP 	record_notification: autoDraw = False
+48.0038 	EXP 	text: autoDraw = False
+48.0038 	EXP 	text1: text = 'Ids'
+48.0038 	EXP 	text2: text = 'gsd'
+48.0038 	EXP 	prime_text: text = 'fgh'
+48.0038 	EXP 	target_text: text = '怕'
+48.0038 	EXP 	record_notification: text = 'Please say the word: pan'
+48.0038 	EXP 	text: text = 'Prime Item: 怕e.English'
+48.0038 	EXP 	text1: autoDraw = True
+48.0038 	EXP 	text: autoDraw = True
+51.9991 	EXP 	text2: autoDraw = True
+55.9988 	EXP 	prime_text: autoDraw = True
+59.9991 	EXP 	target_text: autoDraw = True
+59.9991 	EXP 	record_notification: autoDraw = True
+59.9999 	EXP 	Sound pan_record.marker_tone started
+59.9999 	DATA 	AdvAudioCapture pan_record: Record: onset 1581808292, capture 4.000s
+60.0061 	EXP 	AdvAudioCapture pan_record: Record: return immediately, no blocking
+62.2523 	DATA 	Keypress: escape
+64.3014 	EXP 	window1: mouseVisible = True
