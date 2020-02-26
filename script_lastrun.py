@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v3.2.4),
-    on 二月 22, 2020, at 23:35
+    on February 23, 2020, at 09:38
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -49,7 +49,7 @@ filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expNa
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath='C:\\Users\\kevin\\Documents\\Spring 2020\\Psy Independent Study\\Linguistics-Mandarin-English-Priming-Experiment\\script_lastrun.py',
+    originPath='C:\\Users\\Fanyi Mo\\Documents\\GitHub\\Linguistics-Mandarin-English-Priming-Experiment\\script_lastrun.py',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -90,7 +90,7 @@ defaultKeyboard = keyboard.Keyboard()
 # Initialize components for Routine "Begin"
 BeginClock = core.Clock()
 instructiontext = visual.TextStim(win=win, name='instructiontext',
-    text='In this study, you will perform a simple task of looking at, listening to and speaking some words in English and Mandarin.\n\nSpecifically, you will first view and listen to a short list of individual words in blue.\n\nThen you will read out loud a red word as fast as you can when it shows up on the screen. \n',
+    text='In this study, you will perform a simple task of looking at, listening to and speaking some words in English and Mandarin.\n\nSpecifically, you will first view and listen to a short list of individual words in blue.\n\nThen you will read out loud a red word AS FAST AS YOU CAN when it shows up on the screen. \n',
     font='Arial',
     pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
@@ -262,9 +262,9 @@ record_notification = visual.TextStim(win=win, name='record_notification',
 # Initialize components for Routine "End"
 EndClock = core.Clock()
 End_text = visual.TextStim(win=win, name='End_text',
-    text='Thank you for completing the session. \nPlease see the researcher for further instructions. ',
+    text='Thank you for completing the session. \n\nPlease see the researcher for further instructions. ',
     font='Arial',
-    pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
+    pos=(0, 0), height=0.05, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1, 
     languageStyle='LTR',
     depth=0.0);
@@ -735,34 +735,33 @@ for thisPractice in practices:
     for thisComponent in practiceComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
-    thisExp.addData('text1_2.started', text1_2.tStartRefresh)
-    thisExp.addData('text1_2.stopped', text1_2.tStopRefresh)
+    practices.addData('text1_2.started', text1_2.tStartRefresh)
+    practices.addData('text1_2.stopped', text1_2.tStopRefresh)
     sound1_2.stop()  # ensure sound has stopped at end of routine
-    thisExp.addData('sound1_2.started', sound1_2.tStartRefresh)
-    thisExp.addData('sound1_2.stopped', sound1_2.tStopRefresh)
-    thisExp.addData('text2_2.started', text2_2.tStartRefresh)
-    thisExp.addData('text2_2.stopped', text2_2.tStopRefresh)
+    practices.addData('sound1_2.started', sound1_2.tStartRefresh)
+    practices.addData('sound1_2.stopped', sound1_2.tStopRefresh)
+    practices.addData('text2_2.started', text2_2.tStartRefresh)
+    practices.addData('text2_2.stopped', text2_2.tStopRefresh)
     sound2_2.stop()  # ensure sound has stopped at end of routine
-    thisExp.addData('sound2_2.started', sound2_2.tStartRefresh)
-    thisExp.addData('sound2_2.stopped', sound2_2.tStopRefresh)
-    thisExp.addData('prime_text_2.started', prime_text_2.tStartRefresh)
-    thisExp.addData('prime_text_2.stopped', prime_text_2.tStopRefresh)
+    practices.addData('sound2_2.started', sound2_2.tStartRefresh)
+    practices.addData('sound2_2.stopped', sound2_2.tStopRefresh)
+    practices.addData('prime_text_2.started', prime_text_2.tStartRefresh)
+    practices.addData('prime_text_2.stopped', prime_text_2.tStopRefresh)
     prime_sound_2.stop()  # ensure sound has stopped at end of routine
-    thisExp.addData('prime_sound_2.started', prime_sound_2.tStartRefresh)
-    thisExp.addData('prime_sound_2.stopped', prime_sound_2.tStopRefresh)
-    thisExp.addData('target_text_2.started', target_text_2.tStartRefresh)
-    thisExp.addData('target_text_2.stopped', target_text_2.tStopRefresh)
+    practices.addData('prime_sound_2.started', prime_sound_2.tStartRefresh)
+    practices.addData('prime_sound_2.stopped', prime_sound_2.tStopRefresh)
+    practices.addData('target_text_2.started', target_text_2.tStartRefresh)
+    practices.addData('target_text_2.stopped', target_text_2.tStopRefresh)
     # pan_record_2 stop & responses
     pan_record_2.stop()  # sometimes helpful
     if not pan_record_2.savedFile:
         pan_record_2.savedFile = None
-    # store data for thisExp (ExperimentHandler)
-    thisExp.addData('pan_record_2.filename', pan_record_2.savedFile)
-    thisExp.addData('pan_record_2.started', pan_record_2.tStart)
-    thisExp.addData('pan_record_2.stopped', pan_record_2.tStop)
-    thisExp.nextEntry()
-    thisExp.addData('record_notification_2.started', record_notification_2.tStartRefresh)
-    thisExp.addData('record_notification_2.stopped', record_notification_2.tStopRefresh)
+    # store data for practices (TrialHandler)
+    practices.addData('pan_record_2.filename', pan_record_2.savedFile)
+    practices.addData('pan_record_2.started', pan_record_2.tStart)
+    practices.addData('pan_record_2.stopped', pan_record_2.tStop)
+    practices.addData('record_notification_2.started', record_notification_2.tStartRefresh)
+    practices.addData('record_notification_2.stopped', record_notification_2.tStopRefresh)
     practices.addData('instruction.started', instruction.tStartRefresh)
     practices.addData('instruction.stopped', instruction.tStopRefresh)
     thisExp.nextEntry()
