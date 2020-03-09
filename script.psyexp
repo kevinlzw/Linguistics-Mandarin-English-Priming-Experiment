@@ -51,7 +51,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="16.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="9" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="set every repeat" val="$word1" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -68,7 +68,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
         <Param name="volume" updates="constant" val="1" valType="code"/>
       </SoundComponent>
@@ -88,9 +88,9 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="4.0" valType="code"/>
+        <Param name="startVal" updates="None" val="2" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="12.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="set every repeat" val="$word2" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -105,9 +105,9 @@
         <Param name="sound" updates="set every repeat" val="$wrecord2" valType="str"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="4.0" valType="code"/>
+        <Param name="startVal" updates="None" val="2" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
         <Param name="volume" updates="constant" val="1" valType="code"/>
       </SoundComponent>
@@ -127,9 +127,9 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="8.0" valType="code"/>
+        <Param name="startVal" updates="None" val="4" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="8.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="set every repeat" val="$prime&amp;#10;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -144,9 +144,9 @@
         <Param name="sound" updates="set every repeat" val="$precord3" valType="str"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="8" valType="code"/>
+        <Param name="startVal" updates="None" val="4" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
         <Param name="volume" updates="constant" val="1" valType="code"/>
       </SoundComponent>
@@ -166,9 +166,9 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="12.0" valType="code"/>
+        <Param name="startVal" updates="None" val="6" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="set every repeat" val="$target" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -182,10 +182,10 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="12.0" valType="code"/>
+        <Param name="startVal" updates="None" val="6" valType="code"/>
         <Param name="stereo" updates="None" val="False" valType="bool"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
       </MicrophoneComponent>
     </Routine>
@@ -252,7 +252,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="16.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="9" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="set every repeat" val="$word1" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -269,7 +269,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
         <Param name="volume" updates="constant" val="1" valType="code"/>
       </SoundComponent>
@@ -289,9 +289,9 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="4.0" valType="code"/>
+        <Param name="startVal" updates="None" val="2.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="12.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="7" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="set every repeat" val="$word2" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -306,9 +306,9 @@
         <Param name="sound" updates="set every repeat" val="$wrecord2" valType="str"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="4.0" valType="code"/>
+        <Param name="startVal" updates="None" val="2.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
         <Param name="volume" updates="constant" val="1" valType="code"/>
       </SoundComponent>
@@ -328,9 +328,9 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="8.0" valType="code"/>
+        <Param name="startVal" updates="None" val="4.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="8.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="5" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="set every repeat" val="$prime&amp;#10;" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -345,9 +345,9 @@
         <Param name="sound" updates="set every repeat" val="$precord3" valType="str"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="8" valType="code"/>
+        <Param name="startVal" updates="None" val="4" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4" valType="code"/>
+        <Param name="stopVal" updates="constant" val="2" valType="code"/>
         <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
         <Param name="volume" updates="constant" val="1" valType="code"/>
       </SoundComponent>
@@ -367,9 +367,9 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="12.0" valType="code"/>
+        <Param name="startVal" updates="None" val="6" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="set every repeat" val="$target" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -383,10 +383,10 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="12.0" valType="code"/>
+        <Param name="startVal" updates="None" val="6" valType="code"/>
         <Param name="stereo" updates="None" val="False" valType="bool"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
       </MicrophoneComponent>
       <TextComponent name="record_notification_2">
@@ -405,9 +405,9 @@
         <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
         <Param name="startEstim" updates="None" val="" valType="code"/>
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
-        <Param name="startVal" updates="None" val="12.0" valType="code"/>
+        <Param name="startVal" updates="None" val="6" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="4.0" valType="code"/>
+        <Param name="stopVal" updates="constant" val="3" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="set every repeat" val="Please say the word: pan" valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -431,7 +431,7 @@
         <Param name="startType" updates="None" val="time (s)" valType="str"/>
         <Param name="startVal" updates="None" val="0.0" valType="code"/>
         <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
-        <Param name="stopVal" updates="constant" val="16" valType="code"/>
+        <Param name="stopVal" updates="constant" val="9" valType="code"/>
         <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
         <Param name="text" updates="constant" val="Please view and listen to the blue words and pronounce the red word AS SOON AS YOU SEE IT." valType="str"/>
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
@@ -691,14 +691,32 @@
         <Param name="units" updates="None" val="from exp settings" valType="str"/>
         <Param name="wrapWidth" updates="constant" val="" valType="code"/>
       </TextComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
     </Routine>
   </Routines>
   <Flow>
     <Routine name="Begin"/>
     <Routine name="practice_instruction"/>
     <LoopInitiator loopType="TrialHandler" name="practices">
-      <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('word1', 'Eye'), ('word2', 'Cap'), ('prime', 'Pun'), ('target', '潘'), ('wrecord1', 'Eye.wav'), ('wrecord2', 'Cap.wav'), ('precord3', 'Pun.wav'), ('Rname', '潘_close_English')]), OrderedDict([('word1', 'Ids'), ('word2', 'gsd'), ('prime', 'fgh'), ('target', '怕'), ('wrecord1', 'Eye.wav'), ('wrecord2', 'Cap.wav'), ('precord3', 'Pun.wav'), ('Rname', '怕_close_English')])]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="0:5" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('word1', 'Mob'), ('word2', 'Egg'), ('prime', 'Fun'), ('target', '买'), ('wrecord1', 'Mob.wav'), ('wrecord2', 'Egg.wav'), ('precord3', 'Fun.wav'), ('Rname', '买_practice_English')]), OrderedDict([('word1', 'Tin'), ('word2', 'Tag'), ('prime', 'Toy'), ('target', '褐'), ('wrecord1', 'Tin.wav'), ('wrecord2', 'Tag.wav'), ('precord3', 'Toy.wav'), ('Rname', '褐_practice_English')]), OrderedDict([('word1', 'Bun'), ('word2', 'Ant'), ('prime', 'Mud'), ('target', '需'), ('wrecord1', 'Bun.wav'), ('wrecord2', 'Ant.wav'), ('precord3', 'Mud.wav'), ('Rname', '需_practice_English')]), OrderedDict([('word1', 'Flu'), ('word2', 'Due'), ('prime', 'Hum'), ('target', '影'), ('wrecord1', 'Flu.wav'), ('wrecord2', 'Due.wav'), ('precord3', 'Hum.wav'), ('Rname', '影_practice_English')]), OrderedDict([('word1', 'Fog'), ('word2', 'Eve'), ('prime', 'Rib'), ('target', '露'), ('wrecord1', 'Fog.wav'), ('wrecord2', 'Eve.wav'), ('precord3', 'Rib.wav'), ('Rname', '露_practice_English')]), OrderedDict([('word1', '触'), ('word2', '纪'), ('prime', '港'), ('target', '沾'), ('wrecord1', 'Chu4.wav'), ('wrecord2', 'Ji4.wav'), ('precord3', 'Gang3.wav'), ('Rname', '沾_practice_Mandarin')]), OrderedDict([('word1', '畅'), ('word2', '呈'), ('prime', '祷'), ('target', '覆'), ('wrecord1', 'Chang4.wav'), ('wrecord2', 'Cheng2.wav'), ('precord3', 'Dao3.wav'), ('Rname', '覆_practice_Mandarin')]), OrderedDict([('word1', '梅'), ('word2', '败'), ('prime', '舅'), ('target', '惑'), ('wrecord1', 'Mei2.wav'), ('wrecord2', 'Bai4.wav'), ('precord3', 'Jiu4.wav'), ('Rname', '惑_practice_Mandarin')]), OrderedDict([('word1', '韬'), ('word2', '烂'), ('prime', '廉'), ('target', '筐'), ('wrecord1', 'Tao1.wav'), ('wrecord2', 'Lan4.wav'), ('precord3', 'Lian2.wav'), ('Rname', '筐_practice_Mandarin')]), OrderedDict([('word1', '谴'), ('word2', '派'), ('prime', '品'), ('target', '垒'), ('wrecord1', 'Qian3.wav'), ('wrecord2', 'Pai4.wav'), ('precord3', 'Pin3.wav'), ('Rname', '垒_practice_Mandarin')])]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="Practice condition.xlsx" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
@@ -712,8 +730,8 @@
     <Routine name="trail_instruction"/>
     <Routine name="trail_Start"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
-      <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('word1', 'Eye'), ('word2', 'Cap'), ('prime', 'Pun'), ('target', '潘'), ('wrecord1', 'Eye.wav'), ('wrecord2', 'Cap.wav'), ('precord3', 'Pun.wav'), ('Rname', 'Prime Item: 潘.close.English')]), OrderedDict([('word1', 'Ids'), ('word2', 'gsd'), ('prime', 'fgh'), ('target', '怕'), ('wrecord1', 'Eye.wav'), ('wrecord2', 'Cap.wav'), ('precord3', 'Pun.wav'), ('Rname', 'Prime Item: 怕e.English')])]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="0:16" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('word1', 'Opt'), ('word2', 'Ash'), ('prime', 'Bay'), ('target', '败'), ('wrecord1', 'Opt.wav'), ('wrecord2', 'Ash.wav'), ('precord3', 'Bay.wav'), ('Rname', '败_far_English_consonant')]), OrderedDict([('word1', 'Fog'), ('word2', 'Eve'), ('prime', 'Bee'), ('target', '币'), ('wrecord1', 'Fog.wav'), ('wrecord2', 'Eve.wav'), ('precord3', 'Bee.wav'), ('Rname', '币_close_English_consonant')]), OrderedDict([('word1', 'Sea'), ('word2', 'Ant'), ('prime', 'Bun'), ('target', '搬'), ('wrecord1', 'Sea.wav'), ('wrecord2', 'Ant.wav'), ('precord3', 'Bun.wav'), ('Rname', '搬_close_English_vowel')]), OrderedDict([('word1', 'Box'), ('word2', 'Paw'), ('prime', 'Bye'), ('target', '败'), ('wrecord1', 'Box.wav'), ('wrecord2', 'Paw.wav'), ('precord3', 'Bye.wav'), ('Rname', '败_close_English_consonant')]), OrderedDict([('word1', 'Dam'), ('word2', 'Arm'), ('prime', 'Done'), ('target', '单'), ('wrecord1', 'Dam.wav'), ('wrecord2', 'Arm.wav'), ('precord3', 'Done.wav'), ('Rname', '单_close_English_vowel')]), OrderedDict([('word1', 'Ice'), ('word2', 'Jet'), ('prime', 'Hip'), ('target', '僻'), ('wrecord1', 'Ice.wav'), ('wrecord2', 'Jet.wav'), ('precord3', 'Hip.wav'), ('Rname', '僻_far_English_consonant')]), OrderedDict([('word1', 'Pin'), ('word2', 'Gum'), ('prime', 'Hum'), ('target', '弹'), ('wrecord1', 'Pin.wav'), ('wrecord2', 'Gum.wav'), ('precord3', 'Hum.wav'), ('Rname', '弹_far_English_vowel')]), OrderedDict([('word1', 'Mob'), ('word2', 'Mat'), ('prime', 'Jaw'), ('target', '派'), ('wrecord1', 'Mob.wav'), ('wrecord2', 'Mat.wav'), ('precord3', 'Jaw.wav'), ('Rname', '派_far_English_consonant')]), OrderedDict([('word1', 'Pen'), ('word2', 'Dye'), ('prime', 'Lap'), ('target', '币'), ('wrecord1', 'Pen.wav'), ('wrecord2', 'Dye.wav'), ('precord3', 'Lap.wav'), ('Rname', '币_far_English_consonant')]), OrderedDict([('word1', 'Owl'), ('word2', 'Mat'), ('prime', 'Lip'), ('target', '搬'), ('wrecord1', 'Owl.wav'), ('wrecord2', 'Mat.wav'), ('precord3', 'Lip.wav'), ('Rname', '搬_far_English_vowel')]), OrderedDict([('word1', 'Rat'), ('word2', 'Sum'), ('prime', 'Ore'), ('target', '单'), ('wrecord1', 'Rat.wav'), ('wrecord2', 'Sum.wav'), ('precord3', 'Ore.wav'), ('Rname', '单_far_English_vowel')]), OrderedDict([('word1', 'Due'), ('word2', 'Era'), ('prime', 'Pea'), ('target', '僻'), ('wrecord1', 'Due.wav'), ('wrecord2', 'Era.wav'), ('precord3', 'Pea.wav'), ('Rname', '僻_close_English_consonant')]), OrderedDict([('word1', 'Pet'), ('word2', 'Bid'), ('prime', 'Pie'), ('target', '派'), ('wrecord1', 'Pet.wav'), ('wrecord2', 'Bid.wav'), ('precord3', 'Pie.wav'), ('Rname', '派_close_English_consonant')]), OrderedDict([('word1', 'Eye'), ('word2', 'Cap'), ('prime', 'Pun'), ('target', '潘'), ('wrecord1', 'Eye.wav'), ('wrecord2', 'Cap.wav'), ('precord3', 'Pun.wav'), ('Rname', '潘_close_English_vowel')]), OrderedDict([('word1', 'Pet'), ('word2', 'Mud'), ('prime', 'Tag'), ('target', '潘'), ('wrecord1', 'Pet.wav'), ('wrecord2', 'Mud.wav'), ('precord3', 'Tag.wav'), ('Rname', '潘_far_English_vowel')]), OrderedDict([('word1', 'Fun'), ('word2', 'Bay'), ('prime', 'Ton'), ('target', '弹'), ('wrecord1', 'Fun.wav'), ('wrecord2', 'Bay.wav'), ('precord3', 'Ton.wav'), ('Rname', '弹_close_English_vowel')]), OrderedDict([('word1', '烂'), ('word2', '稻'), ('prime', '白'), ('target', '败'), ('wrecord1', 'Lan4.wav'), ('wrecord2', 'Dao4.wav'), ('precord3', 'Bai2.wav'), ('Rname', '败_close_Mandarin_consonant')]), OrderedDict([('word1', '讯'), ('word2', '嫌'), ('prime', '伴'), ('target', '搬'), ('wrecord1', 'Xun4.wav'), ('wrecord2', 'Xian2.wav'), ('precord3', 'Ban4.wav'), ('Rname', '搬_close_Mandarin_vowel')]), OrderedDict([('word1', '泥'), ('word2', '畅'), ('prime', '比'), ('target', '币'), ('wrecord1', 'Ni2.wav'), ('wrecord2', 'Chang4.wav'), ('precord3', 'Bi3.wav'), ('Rname', '币_close_Mandarin_consonant')]), OrderedDict([('word1', '唇'), ('word2', '躲'), ('prime', '扯'), ('target', '弹'), ('wrecord1', 'Chun2.wav'), ('wrecord2', 'Duo3.wav'), ('precord3', 'Che3.wav'), ('Rname', '弹_far_Mandarin_vowel')]), OrderedDict([('word1', '谈'), ('word2', '管'), ('prime', '但'), ('target', '单'), ('wrecord1', 'Tan2.wav'), ('wrecord2', 'Guan3.wav'), ('precord3', 'Dan4.wav'), ('Rname', '单_close_Mandarin_vowel')]), OrderedDict([('word1', '需'), ('word2', '影'), ('prime', '规'), ('target', '僻'), ('wrecord1', 'Xu1.wav'), ('wrecord2', 'Ying3.wav'), ('precord3', 'Gui1.wav'), ('Rname', '僻_far_Mandarin_consonant')]), OrderedDict([('word1', '决'), ('word2', '镇'), ('prime', '舅'), ('target', '败'), ('wrecord1', 'Jue2.wav'), ('wrecord2', 'Zhen4.wav'), ('precord3', 'Jiu4.wav'), ('Rname', '败_far_Mandarin_consonant')]), OrderedDict([('word1', '锡'), ('word2', '颂'), ('prime', '蜡'), ('target', '单'), ('wrecord1', 'Xi1.wav'), ('wrecord2', 'Song4.wav'), ('precord3', 'La4.wav'), ('Rname', '单_far_Mandarin_vowel')]), OrderedDict([('word1', '蓬'), ('word2', '额'), ('prime', '骆'), ('target', '派'), ('wrecord1', 'Peng2.wav'), ('wrecord2', 'E2.wav'), ('precord3', 'Luo4.wav'), ('Rname', '派_far_Mandarin_consonant')]), OrderedDict([('word1', '饰'), ('word2', '垒'), ('prime', '排'), ('target', '派'), ('wrecord1', 'Shi4.wav'), ('wrecord2', 'Lei3.wav'), ('precord3', 'Pai2.wav'), ('Rname', '派_close_Mandarin_consonant')]), OrderedDict([('word1', '败'), ('word2', '感'), ('prime', '盘'), ('target', '潘'), ('wrecord1', 'Bai4.wav'), ('wrecord2', 'Gan3.wav'), ('precord3', 'Pan2.wav'), ('Rname', '潘_close_Mandarin_vowel')]), OrderedDict([('word1', '输'), ('word2', '酸'), ('prime', '匹'), ('target', '僻'), ('wrecord1', 'Shu1.wav'), ('wrecord2', 'Suan1.wav'), ('precord3', 'Pi3.wav'), ('Rname', '僻_close_Mandarin_consonant')]), OrderedDict([('word1', '妄'), ('word2', '拳'), ('prime', '缺'), ('target', '搬'), ('wrecord1', 'Wang3.wav'), ('wrecord2', 'Quan2.wav'), ('precord3', 'Que1.wav'), ('Rname', '搬_far_Mandarin_vowel')]), OrderedDict([('word1', '韩'), ('word2', '餐'), ('prime', '贪'), ('target', '弹'), ('wrecord1', 'Han2.wav'), ('wrecord2', 'Can1.wav'), ('precord3', 'Tan1.wav'), ('Rname', '弹_close_Mandarin_vowel')]), OrderedDict([('word1', '拧'), ('word2', '伤'), ('prime', '维'), ('target', '潘'), ('wrecord1', 'Ning3.wav'), ('wrecord2', 'Shang1.wav'), ('precord3', 'Wei2.wav'), ('Rname', '潘_far_Mandarin_vowel')]), OrderedDict([('word1', '露'), ('word2', '触'), ('prime', '沾'), ('target', '币'), ('wrecord1', 'Lu4.wav'), ('wrecord2', 'Chu4.wav'), ('precord3', 'Zhan1.wav'), ('Rname', '币_far_Mandarin_consonant')])]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="conditions.xlsx" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
